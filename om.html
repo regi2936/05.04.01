@@ -9,11 +9,65 @@
 
     <style>
         body {
-
-            background-image: url(imgs/Wood-Background.jpg);
-            background-size: contain;
             width: 100%;
             margin: 0;
+            background-repeat: no-repeat;
+            background-position: right top;
+            background-attachment: fixed;
+            background-size: cover;
+            background-blend-mode: saturation;
+            background-image: url("imgs/Wood-Background.jpg");
+        }
+
+        .logo img {
+
+            width: 300px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+
+        img {
+            padding: 30px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 900px;
+        }
+
+        h2 {
+            text-align: center;
+            color: white;
+            font-size: 2rem;
+            font-family: 'Montserrat', sans-serif;
+            text-shadow: 2px 2px 2px black;
+        }
+
+        p {
+            background-color: rgba(244, 247, 255, 0.53);
+            text-align: center;
+            color: white;
+            font-size: 1.2rem;
+            font-family: 'Montserrat', sans-serif;
+            margin: 20px 20px 20px 20px;
+            padding: 20px 20px 20px 20px;
+            border-radius: 5px;
+            text-shadow: 2px 2px 2px grey;
+            max-width: 800px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+
+        .footer {
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+            text-shadow: 2px 2px 2px grey;
+            text-align: center;
         }
 
 
@@ -66,69 +120,55 @@
         /**********************************************************/
 
 
-        img {
-            width: 95vw;
-            height: auto;
-            padding: 20px 20px 20px 20px;
 
-        }
+        @media screen and (max-width: 500px) {
 
-        h2 {
-
-            text-align: center;
-            color: white;
-            font-size: 2rem;
-            font-family: 'Montserrat', sans-serif;
-        }
-
-        p {
-            background-color: rgba(199, 199, 199, 0.46);
-            text-align: center;
-            color: white;
-            font-size: 1.2rem;
-            font-family: 'Montserrat', sans-serif;
-            margin: 10px 10px 10px 10px;
-            padding: 10px 10px 10px 10px;
-            border-radius: 5px;
-        }
-
-        #icon img {
-            width: 8vw;
-            height: auto;
-            color: white;
-            align-content: center;
-
-        }
-
-
-
-        @media screen and (max-width: 600px) {
-
-            .logo img {
+            .logo {
 
                 display: none;
             }
+
+
+
+            img {
+                width: 350px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+
+            p {
+
+                width: 370px;
+                font-size: 1.5rem;
+            }
+
         }
 
 
 
-        @media screen and (min-width: 500px) {
+        @media screen and (min-width: 550px) {
 
             #burger {
                 display: none;
             }
 
-
-        }
-
-        @media screen and (min-width: 700px) {
-
             img {
-                width: 95vw;
-                height: auto;
-                padding: 20px 20px 20px 20px;
+                width: 500px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+
             }
+
+            p {
+                width: 700px;
+            }
+
         }
+
+        @media screen and (min-width: 700px) {}
     </style>
 
 
@@ -151,8 +191,8 @@
             </ul>
         </nav>
 
-        <div class="info_billede">
-            <img src="imgs/image.jpg" alt="">
+        <div class="logo" id="hidden">
+            <a href="index.html"><img src="logo.svg" alt=""></a>
         </div>
 
 
@@ -161,10 +201,12 @@
 
     <div class="desc">
 
-
-
         <div class="info_text">
-            <h2>Med passion og nyskabelse</h2>
+            <h2>Velkommen til Restaurant Roma</h2>
+            <div class="">
+                <img src="imgs/image.jpg" alt="">
+            </div>
+
             <p>Hos Restaurant Roma dyrker vi de italienske traditioner men vi står aldrig stille. København er en del af et historisk Europa, hvorfra vi henter inspiration til nye sanse- og smagsoplevelser. Et besøg hos Tusci Ristorante er mere end en middag. Hele restauranten er blevet renoveret og indrettet i varme toner, med bløde polstrede stole, smuk borddækning, walk-in-vinskab og et Pastaria, hvor du kan se din friske pasta blive lavet fra bunden.</p>
 
             <p>Hos Restaurant Roma sætter vi pris på lækker mad og vin i hyggelige og stilfulde omgivelser. I Italien er børn en naturlig del af udelivet – og det gælder også hos Restaurant Roma. Vi har indrettet et skønt børneværelse med legetøj og fjernsyn, hvor børnene kan hygge og føle sig hjemme, når de er mætte af indtryk og lækkerier. Alt mens I nyder resten af middagen.</p>
@@ -173,29 +215,26 @@
 
     </div>
 
-    <div id="section">
-        <div class="open">
-            <img src="imgs/kortoverkbh.jpg" alt="kort_over_københavn">
 
-            <div class="open_text">
-                <h2>Åbningstider:</h2>
+    <div class="kort">
+        <img src="imgs/kortoverkbh.jpg" alt="kort_over_københavn">
 
-                <p class="today">I dag: 17.30-24.00</p>
-
-                <p>Tirsdag-lørdag: 17.30-24.00 <br>
-                    Frokost fredag og lørdag: 12.00-15.00 <br>
-                    søndag: Lukket.
-                </p>
-
-                <p><strong>Adresse:</strong> Pilestræde 12A, <br>
-                    1112 København</p>
-            </div>
-        </div>
     </div>
+
 
     <footer class="footer_info">
 
+        <div class="footer">
+            <h2>Åbningstider:</h2>
 
+            <p>Mandag-lørdag: 17.30-24.00 <br>
+                Frokost fredag og lørdag: 12.00-15.00 <br>
+                Søndag: Lukket.
+            </p>
+
+            <p><strong>Adresse:</strong> Pilestræde 12A, <br>
+                1112 København</p>
+        </div>
     </footer>
     <script>
         document.querySelector("#menuknap").addEventListener("click", toggleMenu);

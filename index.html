@@ -21,11 +21,13 @@
         }
 
         header {
-            background-image: url(imgs/image.jpg);
-            background-repeat: no-repeat;
+            background-image: url(imgs/pizza2.jpg);
             background-size: cover;
+            height: 800px;
+            background-position: center center;
             margin: 30px;
             padding: 20px;
+            border-radius: 5px;
         }
 
 
@@ -34,8 +36,9 @@
             margin: 0;
             padding: 0;
             width: 25vw;
+            height: auto;
             background-color: rgba(255, 255, 255, 0.68);
-            height: 60vw;
+            border-radius: 5px;
 
         }
 
@@ -46,6 +49,7 @@
             font-family: 'Montserrat', sans-serif;
             padding: 30px 20px 30px 30px;
             text-shadow: 2px 2px 2px grey;
+            font-size: 2rem;
         }
 
 
@@ -57,9 +61,6 @@
 
 
         }
-
-
-
 
 
         /**************************BURGERMENU********************************/
@@ -117,12 +118,8 @@
 
         /**********************DESKTOP*********************/
 
-        @media only screen and (min-width: 770px) {
+        @media only screen and (min-width: 600px) {}
 
-            .menu li a {
-                font-size: 2.5rem;
-            }
-        }
 
         /**********************IPAD*********************/
 
@@ -134,28 +131,6 @@
                 display: none;
             }
 
-            header {
-
-                height: 80vw;
-            }
-
-            #menu li a {
-                font-size: 1.5rem;
-                text-decoration: none;
-                font-family: 'Montserrat', sans-serif;
-                color: gray;
-
-            }
-
-            .menu ul {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-                width: 25vw;
-                background-color: rgba(255, 255, 255, 0.68);
-                height: 80vw;
-
-            }
 
 
         }
@@ -176,8 +151,10 @@
             }
 
             header {
-                background-position: center center;
-                height: 170vw;
+                background-position: center;
+                background-size: cover;
+                height: 800px;
+
             }
         }
     </style>
@@ -186,8 +163,6 @@
 <body>
 
     <header>
-
-
 
         <nav id="burger">
 
@@ -209,7 +184,6 @@
                     <li><a href="menu.html">Menu</a></li>
                     <li><a href="om.html">Kontakt</a></li>
                     <li><a href="om.html">Om os</a></li>
-
                 </ul>
             </nav>
         </div>
