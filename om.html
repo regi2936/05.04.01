@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>Om os</title>
+
+    <style>
+        body {
+
+            background-image: url(imgs/Wood-Background.jpg);
+            background-size: contain;
+            width: 100%;
+            margin: 0;
+        }
+
+
+        /**************************BURGERMENU********************************/
+        #menuknap {
+            text-align: left;
+            font-size: 3rem;
+            font-family: 'helvetica', sans-serif;
+            cursor: pointer;
+            color: white;
+            margin-left: 10px;
+
+        }
+
+
+        #menu {
+            transition: transform 0.3s;
+            list-style-type: none;
+            transform-origin: top left;
+            background-color: rgba(252, 252, 252, 0.81);
+            width: 300px;
+            text-align: left;
+            padding-bottom: 20px;
+        }
+
+        #burger {
+            width: 200px;
+            z-index: 2;
+        }
+
+        #menu li {
+            padding-top: 30px;
+            display: block;
+            text-align: left;
+        }
+
+
+        #menu a {
+            font-size: 1.5rem;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            color: gray;
+
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        /**********************************************************/
+
+
+        img {
+            width: 95vw;
+            height: auto;
+            padding: 20px 20px 20px 20px;
+
+        }
+
+        h2 {
+
+            text-align: center;
+            color: white;
+            font-size: 2rem;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        p {
+            background-color: rgba(199, 199, 199, 0.46);
+            text-align: center;
+            color: white;
+            font-size: 1.2rem;
+            font-family: 'Montserrat', sans-serif;
+            margin: 10px 10px 10px 10px;
+            padding: 10px 10px 10px 10px;
+            border-radius: 5px;
+        }
+
+        #icon img {
+            width: 8vw;
+            height: auto;
+            color: white;
+            align-content: center;
+
+        }
+
+
+
+        @media screen and (max-width: 600px) {
+
+            .logo img {
+
+                display: none;
+            }
+        }
+
+
+
+        @media screen and (min-width: 500px) {
+
+            #burger {
+                display: none;
+            }
+
+
+        }
+
+        @media screen and (min-width: 700px) {
+
+            img {
+                width: 95vw;
+                height: auto;
+                padding: 20px 20px 20px 20px;
+            }
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <header>
+
+
+
+        <nav id="burger">
+
+            <div id="menuknap">☰</div>
+
+            <ul id="menu" class="hidden">
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="menu.html">Menukort</a></li>
+                <li><a href="om.html">Kontakt</a></li>
+            </ul>
+        </nav>
+
+        <div class="info_billede">
+            <img src="imgs/image.jpg" alt="">
+        </div>
+
+
+    </header>
+
+
+    <div class="desc">
+
+
+
+        <div class="info_text">
+            <h2>Med passion og nyskabelse</h2>
+            <p>Hos Restaurant Roma dyrker vi de italienske traditioner men vi står aldrig stille. København er en del af et historisk Europa, hvorfra vi henter inspiration til nye sanse- og smagsoplevelser. Et besøg hos Tusci Ristorante er mere end en middag. Hele restauranten er blevet renoveret og indrettet i varme toner, med bløde polstrede stole, smuk borddækning, walk-in-vinskab og et Pastaria, hvor du kan se din friske pasta blive lavet fra bunden.</p>
+
+            <p>Hos Restaurant Roma sætter vi pris på lækker mad og vin i hyggelige og stilfulde omgivelser. I Italien er børn en naturlig del af udelivet – og det gælder også hos Restaurant Roma. Vi har indrettet et skønt børneværelse med legetøj og fjernsyn, hvor børnene kan hygge og føle sig hjemme, når de er mætte af indtryk og lækkerier. Alt mens I nyder resten af middagen.</p>
+        </div>
+
+
+    </div>
+
+    <div id="section">
+        <div class="open">
+            <img src="imgs/kortoverkbh.jpg" alt="kort_over_københavn">
+
+            <div class="open_text">
+                <h2>Åbningstider:</h2>
+
+                <p class="today">I dag: 17.30-24.00</p>
+
+                <p>Tirsdag-lørdag: 17.30-24.00 <br>
+                    Frokost fredag og lørdag: 12.00-15.00 <br>
+                    søndag: Lukket.
+                </p>
+
+                <p><strong>Adresse:</strong> Pilestræde 12A, <br>
+                    1112 København</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer_info">
+
+
+    </footer>
+    <script>
+        document.querySelector("#menuknap").addEventListener("click", toggleMenu);
+
+        function toggleMenu() {
+            console.log("Toogle menu");
+            document.querySelector("#menu").classList.toggle("hidden");
+
+            let erSkjult = document.querySelector("#menu").classList.contains("hidden");
+
+
+            if (erSkjult == true) {
+                document.querySelector("#menuknap").textContent = "☰";
+            } else {
+                document.querySelector("#menuknap").textContent = "X";
+            }
+        }
+    </script>
+</body>
+
+</html>

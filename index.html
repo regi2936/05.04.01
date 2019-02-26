@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>Restaurant Roma</title>
+
+    <style>
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 25vw;
+            background-color: rgba(255, 255, 255, 0.53);
+            height: 110vw;
+
+        }
+
+        .menu li a {
+            display: block;
+            text-decoration: none;
+            color: white;
+            font-size: 2rem;
+            font-family: 'Montserrat', sans-serif;
+            padding: 30px 20px 30px 30px;
+        }
+
+
+
+        header {
+            background-image: url(imgs/pizza2.jpg);
+            background-size: cover;
+            height: 800px;
+            background-position: center center;
+        }
+
+
+        .logo {
+            width: 400px;
+            float: right;
+            padding: 30px 30px 30px 30px;
+
+
+        }
+
+
+
+
+
+        /**************************BURGERMENU********************************/
+        #menuknap {
+            text-align: left;
+            font-size: 3rem;
+            font-family: 'helvetica', sans-serif;
+            cursor: pointer;
+            color: white;
+            position: absolute;
+            margin-left: 10px;
+            margin-top: 8px;
+
+        }
+
+
+        #menu {
+            transition: transform 0.3s;
+            list-style-type: none;
+            transform-origin: top left;
+            background-color: rgba(252, 252, 252, 0.87);
+            width: 300px;
+            text-align: left;
+            padding-bottom: 20px;
+            height: 50vw;
+            padding-top: 10vw;
+        }
+
+        #burger {
+            width: 200px;
+            z-index: 2;
+        }
+
+        #menu li {
+            padding-top: 30px;
+            display: block;
+            text-align: left;
+        }
+
+
+        #menu a {
+            font-size: 1.5rem;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            color: gray;
+
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        /**************************MEDIA*******************************/
+
+        @media screen and (min-width: 500px) {
+
+            #burger {
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+
+            .menu {
+                display: none;
+            }
+
+            .logo {
+                width: 50%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav id="burger">
+
+            <div id="menuknap">☰</div>
+
+            <ul id="menu" class="hidden">
+
+                <li><a href="menu.html">Menukort</a></li>
+                <li><a href="om.html">Kontakt</a></li>
+                <li><a href="om.html">Om os</a></li>
+            </ul>
+        </nav>
+
+        <div class="section_menu">
+            <div class="logo" id="hidden">
+                <img src="logo.svg" alt="">
+            </div>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="om.html">Kontakt</a></li>
+                    <li><a href="om.html">Om os</a></li>
+
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+
+
+    <script>
+        document.querySelector("#menuknap").addEventListener("click", toggleMenu);
+
+        function toggleMenu() {
+            console.log("Toogle menu");
+            document.querySelector("#menu").classList.toggle("hidden");
+
+            let erSkjult = document.querySelector("#menu").classList.contains("hidden");
+
+
+            if (erSkjult == true) {
+                document.querySelector("#menuknap").textContent = "☰";
+            } else {
+                document.querySelector("#menuknap").textContent = "X";
+            }
+        }
+    </script>
+</body>
+
+</html>

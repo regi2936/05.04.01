@@ -1,0 +1,132 @@
+[{
+        "kategori": "hovedretter",
+        "navn": "CREMET RISOTTO MED SVAMPE OG PORRER",
+        "pris": 170,
+        "billede": "risotto_med_svampe_1",
+        "beskrivelse": "Ris, parmesan, olie og sm\u00f8r i rigelige m\u00e6ngder. Risotto er ikke for folk, der er fedtforskr\u00e6kkede."
+}, {
+        "kategori": "hovedretter",
+        "navn": "PIZZA MED LAKS, FENNIKEL OG KARTOFFEL",
+        "pris": 170,
+        "billede": "pizza_med_laks_fennikel_og_kartoffel",
+        "beskrivelse": "Laks som pizzafyld smager rigtig godt, og i kombination med fintsnittet fennikel og spr\u00f8de \u00e6bletern f\u00e5r du en frisk og anderledes pizza."
+}, {
+        "kategori": "hovedretter",
+        "navn": "ITALIENSKE K\u00d8DBOLLER I TOMATSAUCE",
+        "pris": 170,
+        "billede": "koedboller",
+        "beskrivelse": "Nem og l\u00e6kker aftensmad er altid i h\u00f8j kurs, og denne italienske ret med l\u00e6kre og saftige italienske k\u00f8dboller er et sikkert smagshit."
+}, {
+        "kategori": "forretter",
+        "navn": "ITALIENSK MADBR\u00d8D",
+        "pris": 100,
+        "billede": "italiensk_madbroed_med_havsalt",
+        "beskrivelse": "Vi har ladet os inspirere af Piemonte-omr\u00e5det, og serverer her et spr\u00f8dt italiensk madbr\u00f8d med tomat, rosmarin og havsalt!"
+}, {
+        "kategori": "hovedretter",
+        "navn": "CANNELLONI MED RICOTTAOST OG SVAMPE",
+        "pris": 170,
+        "billede": "italienske-retter-canneloni",
+        "beskrivelse": "Fyldte cannelloni er italiensk, n\u00e5r det er bedst. Her har vi fyldt dem med svampe og ricottaost."
+}, {
+        "kategori": "forretter",
+        "navn": "CROSTINI MED JORDB\u00c6R OG OST",
+        "pris": 100,
+        "billede": "crostini",
+        "beskrivelse": "B\u00e5de s\u00f8de og salte. Disse dejlige crostini med jordb\u00e6r og ost fungerer perfekt som hapsere til mousserende vin eller \u00f8l."
+}, {
+        "kategori": "hovedretter",
+        "navn": "HJEMMELAVET GNOCCHI MED URTESM\u00d8R",
+        "pris": 170,
+        "billede": "gnocchi",
+        "beskrivelse": "Denne alternative og smagfulde \u201dpasta\u201d er lavet fra bunden og p\u00e5 basis af kartofler. Server dem gerne som tilbeh\u00f8r, og steg eventuelle rester gyldne og spr\u00f8de dagen derp\u00e5, s\u00e5 bliver de ekstra l\u00e6kre."
+}, {
+        "kategori": "forretter",
+        "navn": "CARPACCIO AF R\u00d8GET SVINEM\u00d8RBRAD",
+        "pris": 100,
+        "billede": "carpaccio",
+        "beskrivelse": "Carpaccio er en klassisk italiensk forret. Her er den lavet med r\u00f8get svinem\u00f8rbrad i stedet for r\u00e5 okse- eller kalvefilet."
+}, {
+        "kategori": "forretter",
+        "navn": "BRUSCHETTAS",
+        "pris": 100,
+        "billede": "bruschetta",
+        "beskrivelse": "Italienske bruschettas kan varieres i det uendelige. Men denne klassiker, kreeret med friske, hakkede tomater, hvidl\u00f8g og basilikum g\u00e5r aldrig af mode. Saftige, solmodne tomater g\u00e5r nemlig fantastisk til det spr\u00f8de br\u00f8d."
+}, {
+        "kategori": "desserter",
+        "navn": "KLASSISK TIRAMISU",
+        "pris": 80,
+        "billede": "tiramisu",
+        "beskrivelse": "Tiramisu er en klassisk italiensk dessert, som med sin bl\u00f8de mascarponecreme og smag af kaffe og ren kakao er den perfekte afslutning p\u00e5 en god middag"
+}, {
+        "kategori": "desserter",
+        "navn": "TRIFLI MED BL\u00c5B\u00c6R OG LIMONCELLO",
+        "pris": 80,
+        "billede": "trifli",
+        "beskrivelse": "Denne trifli er en fr\u00e6k fortolkning af den klassiske italienske dessert Zuppa Inglese"
+}, {
+        "kategori": "desserter",
+        "navn": "PANFORTE MED HASSELN\u00d8DDER, VALN\u00d8DDER OG MANDLER",
+        "pris": 80,
+        "billede": "panforte",
+        "beskrivelse": "Panforte er en kompakt kage med intens smag. Spis den som konfekt i sm\u00e5 stykker."
+}, {
+        "kategori": "desserter",
+        "navn": "PANNA COTTA MED B\u00c6R I VIN OG HONNING",
+        "pris": 80,
+        "billede": "panna_cotta",
+        "beskrivelse": "Endnu en udgave af den italienske klassiker inden for desserter: panna cotta. Her serveret med b\u00e6r i vin og honning"
+}, {
+
+        "kategori": "drikkevarer",
+        "navn": "Controguerra Cabernet",
+        "pris": 429,
+        "beskrivelse": "En rubinr\u00f8d vin lavet p\u00e5 druen af samme navn, Cabernet (85-100%), med tilladelse til at benytte lokale r\u00f8de druer (0-15%).",
+        "billede": "controguerra"
+}, {
+
+        "kategori": "drikkevarer",
+        "navn": "Montepulciano d'Abruzzo",
+        "pris": 399,
+        "beskrivelse": "Produktionszonen for Montepulciano d'Abruzzo d\u00e6kker alle fire provinser i Abruzzo og omfatter derfor et temmeligt stort omr\u00e5de fra kystlinjen og op mod Appeninernes bjergskr\u00e5ninger samt et lille omr\u00e5de, der gr\u00e6nser op til naboregionen Lazio.",
+        "billede": "montepulciano"
+}, {
+
+        "kategori": "drikkevarer",
+        "navn": "Tullum (Terre Tollesi) Rosso",
+        "pris": 389,
+        "beskrivelse": "R\u00f8dvinen Tullum Rossom DOC (Terre Tollesi Rosso DOC) skal indeholde druen Montepulciano (90-100%) med tilladelse til yderligere brug af lokale r\u00f8de druer (0-10%).",
+        "billede": "rosso_tullum"
+}, {
+
+        "kategori": "drikkevarer",
+        "navn": "Cerasuolo",
+        "pris": 499,
+        "beskrivelse": "En forfriskende og fyldig rosato lavet p\u00e5 druen Montepulciano (minimum 85%) samt andre lokale, hvide druer (max. 15%). Vinen kan v\u00e6re yderst karakterfuld, har frisk frugt og syre og passer perfekt til j\u00e6vne pastaretter og supper.",
+        "billede": "rose"
+}, {
+
+        "kategori": "drikkevarer",
+        "navn": "Controguerra Pinot Nero",
+        "pris": 349,
+        "beskrivelse": "Denne r\u00f8dvin fra Controguerra laves p\u00e5 Pinot Nero (Noir) (85-100%) og det m\u00e5 suppleres med lokale r\u00f8de druer (0-15%).",
+        "billede": "collecupo"
+}, {
+
+        "kategori": "drikkevarer",
+        "navn": "Trebbiano d'Abruzzo",
+        "pris": 449,
+        "beskrivelse": "Trebbiano d'Abruzzo dyrkes i Abruzzos fire provinser l'Aquila, Chieti, Pescara og Teramo, et temmelig stort omr\u00e5de. Markerne er bakkede og specielt vinene fra skr\u00e5ninger, der vender mod havet, er v\u00e6rdsat.",
+        "billede": "trebbiano"
+}, {
+
+        "kategori": "drikkevarer",
+        "navn": "Controguerra Malvasia",
+        "pris": 599,
+        "beskrivelse": "Denne intens str\u00e5gule hvidvin er lavet p\u00e5 druen Malvasia Bianca (85-100%). Der m\u00e5 tils\u00e6ttes yderligere lokale gr\u00f8nne druer (0-15%).",
+        "billede": "malvasia"
+}
+
+
+
+]
