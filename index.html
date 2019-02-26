@@ -8,13 +8,34 @@
     <title>Restaurant Roma</title>
 
     <style>
+        body {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            background-repeat: no-repeat;
+            background-position: right top;
+            background-attachment: fixed;
+            background-size: cover;
+            background-blend-mode: saturation;
+            background-image: url("imgs/Wood-Background.jpg");
+        }
+
+        header {
+            background-image: url(imgs/image.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 30px;
+            padding: 20px;
+        }
+
+
         .menu ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
             width: 25vw;
-            background-color: rgba(255, 255, 255, 0.53);
-            height: 110vw;
+            background-color: rgba(255, 255, 255, 0.68);
+            height: 60vw;
 
         }
 
@@ -22,19 +43,11 @@
             display: block;
             text-decoration: none;
             color: white;
-            font-size: 2rem;
             font-family: 'Montserrat', sans-serif;
             padding: 30px 20px 30px 30px;
+            text-shadow: 2px 2px 2px grey;
         }
 
-
-
-        header {
-            background-image: url(imgs/pizza2.jpg);
-            background-size: cover;
-            height: 800px;
-            background-position: center center;
-        }
 
 
         .logo {
@@ -73,6 +86,7 @@
             padding-bottom: 20px;
             height: 50vw;
             padding-top: 10vw;
+            position: absolute;
         }
 
         #burger {
@@ -97,27 +111,74 @@
 
         .hidden {
             display: none;
+
         }
 
-        /**************************MEDIA*******************************/
+
+        /**********************DESKTOP*********************/
+
+        @media only screen and (min-width: 770px) {
+
+            .menu li a {
+                font-size: 2.5rem;
+            }
+        }
+
+        /**********************IPAD*********************/
+
+
 
         @media screen and (min-width: 500px) {
 
             #burger {
                 display: none;
             }
+
+            header {
+
+                height: 80vw;
+            }
+
+            #menu li a {
+                font-size: 1.5rem;
+                text-decoration: none;
+                font-family: 'Montserrat', sans-serif;
+                color: gray;
+
+            }
+
+            .menu ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                width: 25vw;
+                background-color: rgba(255, 255, 255, 0.68);
+                height: 80vw;
+
+            }
+
+
         }
 
-        @media screen and (max-width: 600px) {
+        /**********************MOBIL********************/
+
+
+        @media screen and (max-width: 500px) {
 
             .menu {
                 display: none;
             }
 
             .logo {
-                width: 50%;
+                width: 60%;
+                padding: 20px 10px 10px 10px;
+
             }
 
+            header {
+                background-position: center center;
+                height: 170vw;
+            }
         }
     </style>
 </head>
@@ -125,12 +186,13 @@
 <body>
 
     <header>
+
+
+
         <nav id="burger">
 
             <div id="menuknap">☰</div>
-
             <ul id="menu" class="hidden">
-
                 <li><a href="menu.html">Menukort</a></li>
                 <li><a href="om.html">Kontakt</a></li>
                 <li><a href="om.html">Om os</a></li>
@@ -150,8 +212,9 @@
 
                 </ul>
             </nav>
-
         </div>
+
+
     </header>
 
 
