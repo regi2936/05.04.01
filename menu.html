@@ -110,15 +110,15 @@
             position: fixed;
             display: none;
             justify-content: center;
-            background-image: url(imgs/Wood-Background.jpg);
             background-repeat: no-repeat;
             font-family: 'Montserrat', sans-serif;
             background-position: center center;
+            text-shadow: 2px 2px 2px black;
 
         }
 
         #indhold {
-            width: 86vw;
+            width: 70vw;
             height: auto;
             margin: auto;
             text-align: center;
@@ -127,6 +127,7 @@
             border-width: 5px;
             border-color: rgba(244, 247, 255, 0.38);
             border-radius: 5px;
+            background-image: url(imgs/Wood-Background.jpg);
 
 
         }
@@ -138,6 +139,18 @@
         #indhold img {
             text-align: center;
             height: 300px;
+
+        }
+
+        button {
+
+            font-family: 'Montserrat', sans-serif;
+            padding: 10px;
+            background-color: white;
+            margin: 5px;
+            font-size: 1.5rem;
+            border-radius: 5px;
+
 
         }
 
@@ -297,9 +310,15 @@
                 justify-content: center;
             }
 
+            #indhold img {
+                text-align: center;
+                height: 200px;
+
+            }
         }
 
         /**********************************************/
+
     </style>
 
 </head>
@@ -327,6 +346,7 @@
     <div id="popup">
         <div id="indhold"></div>
         <button id="luk">X</button>
+
     </div>
 
 
@@ -456,6 +476,7 @@
                 document.querySelector("#menuknap").textContent = "X";
             }
         }
+
     </script>
 </body>
 
